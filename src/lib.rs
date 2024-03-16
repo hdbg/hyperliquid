@@ -1,5 +1,5 @@
-pub mod api;
-mod client;
+mod api;
+pub mod client;
 mod config;
 mod error;
 mod exchange;
