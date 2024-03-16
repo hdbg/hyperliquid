@@ -7,7 +7,7 @@ use serde::{de::DeserializeOwned, ser::Serialize};
 use crate::{error::Result, types::API};
 
 pub struct Client {
-    inner_client: reqwest::Client,
+    pub inner_client: reqwest::Client,
     host: String,
 }
 
